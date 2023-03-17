@@ -57,6 +57,7 @@ html, body {
 .header {
     background-color: #6DA080;
     padding-top: 25px;
+    color: #fff;
 }
 .header-nav {
     display: flex;
