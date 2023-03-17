@@ -1,0 +1,36 @@
+@media (max-width: 1230px) {
+    .nav-list {
+        display: none;
+    }
+    .nav-button {
+        display: block;
+        position: fixed;
+        z-index: 9;
+        top: 46px;
+        right: 30px;
+    }
+
+    .nav.open .nav-list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        padding: 46px 30px;
+        font-weight: 700;
+    }
+
+    .header-row {
+        flex-direction: column;
+    }
+    .header-nav {
+        margin-bottom: 50px;
+    }
+    .header-content {
+        margin-top: 0;
+    }
+}
